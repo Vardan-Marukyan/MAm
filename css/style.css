@@ -1,0 +1,634 @@
+@import url('https://fonts.cdnfonts.com/css/helveticaneuecyr-2');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 1300px;
+}
+
+.header{
+    background-image: url("../image/headerBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.allstyle{
+    display: flex;
+    justify-content: center;
+}
+
+.wraper{
+    width: 100%;
+}
+
+
+.header__menu-row__ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu-row__li{
+    list-style: none;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header__info-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 0.5px solid #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.header__info-row__contacts{
+    display: flex;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.contacts__mail{
+    margin-right: 50px;
+}
+
+.webSite__info-box_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.webSite__info-box_text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 50px 0;
+    border-left: 2px solid #FFFFFF;
+    padding-left: 30px;
+}
+
+.webSite__info-box{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.webSite__info-box_button button{
+    padding: 15px 30px 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BD0007;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.arrows__button button{
+    padding: 20px 25px;
+    background: #133D8D;
+    border: none;
+    margin: 0 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.ship__info_block{
+    width: 526px;
+    height: 235px;
+    background: rgba(51, 51, 51, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ship__info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.ship__info li{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color:rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+.ship__info_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ship__info_style{
+    width: 456px;
+}
+
+.news__container{
+    padding: 137px 0 160px 0;
+}
+
+.card__container_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card__container_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.card__container_allNews{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #133D8D;
+}
+
+.card__one{
+    width: 306px;
+    height: 330px;
+    background-image: url("../image/ship-card-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__two{
+    width: 306px;
+    height: 330px;
+    background-image: url("../image/ship-card-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__three{
+    width: 306px;
+    height: 330px;
+    background-image: url("../image/ship-card-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__four{
+    width: 306px;
+    height: 330px;
+    background-image: url("../image/ship-card-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-box{
+    width: 252px;
+    padding: 25px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__date{
+    width: 140px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BD0007;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.card__text_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.card__text_text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.news__card{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.history__company{
+    background: #133D8D;
+}
+
+.history__company_text__block{
+    width: 520px;
+}
+
+.history__company_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.history__company_text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.history__company_wrap{
+    padding: 120px 0;
+}
+
+.publications__block{
+    padding: 150px 0 206px;
+}
+
+.publications__card{
+    width: 306px;
+}
+
+.publications__card img{
+    margin-bottom: 30px;
+}
+
+.publications__card_date{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    opacity: 0.75;
+    margin-bottom: 20px;
+}
+
+.publications__card_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.publications__card_text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #133D8D;
+}
+
+.projects_titles-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.projects_titles_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.projects-box{
+    background: rgba(19, 61, 141, 0.5);
+}
+
+.projects_titles_alltitle{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+
+.projects__card_one{
+    background-image: url("../image/ship-card-9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 706px;
+    height: 600px;
+}
+
+.projects-box{
+    padding: 120px 0;
+}
+
+.projects__card_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.projects__card_text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px 0 45px;
+}
+
+.projects__card_text_style{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 45px;
+}
+
+.projects__card_two{
+    width: 590px;
+    height: 600px;
+    background: #133D8D;
+}
+
+.projects__card{
+    display: flex;
+}
+
+.projects__info_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.projects__info_title span{
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.projects__info_text{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.projects__info_right{
+    margin-left: 50px;
+    width: 250px;
+}
+
+.projects__info_left{
+    width: 250px;
+}
+
+.projects__info_morebutton button{
+    border: 1px solid #FFFFFF;
+    padding: 20px 30px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%; 
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #133D8D;
+    color: #FFFFFF;
+    margin-top: 220px;
+}
+
+.projects__card_two_style{
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.qualitySafety{
+    display: flex;
+}
+
+.qualitySafety__box_subTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 31px;
+    background: #133D8D;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.qualitySafety__box_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.qualitySafety__box_li{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.qualitySafety__box_li:before {
+    content: '■'; 
+    margin-left: -15px;
+    color: red;
+    font-size: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -5px;
+  }
+
+
+  .qualitySafety_image{
+    margin-left: 60px;
+  }
+
+  .qualitySafety{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.qualitySafety__box_button button{
+    padding: 20px 25px;
+    background: #133D8D;
+    border: none;
+    margin: 0 10px;
+}
+
+.qualitySafety__box{
+    padding: 150px 0 ;
+}
+
+footer{
+    background: #133D8D;
+    padding: 60px 0 70px;
+}
+
+.footer__ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__ul ul{
+    margin-left: 200px;
+}
+
+.footer__li_title{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer__li{
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
